@@ -12,6 +12,7 @@ float *AWGN(int *y, float SNR);
 
 int to_index(uint8_t *vector, int size);
 uint8_t *sum(uint8_t *vector_1, uint8_t *vector_2, int size);
+void fwht_transform(int n, const float *src, float *dst);
 
 /*
  * Decoder functions
