@@ -1,7 +1,7 @@
-#ifndef RM_WORDS_H_
-#define RM_WORDS_H_
+#ifndef RM_W_H_
+#define RM_W_H_
 #include <stdint.h>
 
-extern float rm_codewords[9991][256];
+extern uint8_t rm_words[9991][256];
 
-#endif //RM_WORDS_H_
+#endif //RM_W_H_
